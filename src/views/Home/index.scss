@@ -1,0 +1,63 @@
+@import url('https://cdn.repository.webfont.com/webfonts/nomal/134905/47894/5dff0afbf629d80c28f6d5c5.css');
+@import url('https://cdn.repository.webfont.com/webfonts/nomal/134905/46758/5dff195cf629d80c28f6d5c6.css');
+@import url('https://at.alicdn.com/t/font_1576563_pgw08tajxir.css');
+
+@media screen and (max-device-width : 1920px) {
+    .name {
+        margin-top: 50%;
+        margin-left: 15%;
+    }
+    .line, .social-icon {
+        width: 100%;
+    }
+}
+@media screen and (min-device-width : 1920px) {
+    .name {
+        margin-left: 15%;
+        margin-top: 15%;
+    }
+    .line, .social-icon {
+        width: 50%;
+    }
+}
+
+.name {
+    writing-mode: vertical-lr;
+    font-size: 4em;
+    letter-spacing: 0.3em;
+    font-family: 'zcoolwenyiti1dd16c2d2520ef9';
+    &::after {
+       content: ' ';
+       width: 15px;
+       height: 15px;
+       position: relative;
+       display: block;
+       border-radius: 50%;
+       border: solid 0.08em #e94328;
+       transform: translate(-30%, -55%);
+    }
+}
+
+.line {
+    background-color: #f5f6fa;
+    height: 2px;
+    border: none;
+    position: absolute;
+    bottom: 8em;
+}
+.social-icon {
+    position: absolute;
+    bottom: 7em;
+    a {
+        text-decoration:none;
+        position: absolute;
+        i {
+            font-size: 1.5em;
+            color: #666;
+        }
+    }
+}
+
+.img {
+ 
+}
